@@ -1,0 +1,28 @@
+.heading_FAQ{
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 30px;
+    color:#9C0000;
+}
+.subHeadFAQ{
+    font-size: 20px;
+    font-weight: 500;
+    text-align: center;
+}
+.questions{
+    display: flex;
+}
+.leftQuestions{
+    margin:60px 70px;
+}
+.rightQuestions{
+    margin:60px 70px;
+}
+.ans{
+    margin: 20px 30px;
+}
+.ques{
+    font-size: large;
+    font-weight: 500;
+}

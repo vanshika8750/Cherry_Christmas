@@ -1,0 +1,20 @@
+/* *{
+    height: 210px;
+} */
+.title{
+    text-align: center;
+    font-size: 40px;
+    color:#9C0000;
+    font-weight: 500;
+    font-family:cursive ;
+}
+.card{
+    width: 20%;
+    margin: 50px 100px;
+}
+.firstRow{
+    display: flex;
+}
+.SecondRow{
+    display: flex;
+}

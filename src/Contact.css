@@ -1,0 +1,29 @@
+
+.ContactUs{
+    background-image: url("./pics/christmas_background.jpg");
+    background-size: cover;
+    height: 80vh;
+}
+.info{
+    margin: 40px 400px;
+    align-items: center;
+    justify-content: center;
+}
+.heading_contact{
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;
+    color: white;
+    ;
+}
+.boxx{
+    margin: 12px 6px;
+    padding: 12px 6px;
+    border-radius: 20px;
+    background-color: rgba(117, 114, 114, 0.367);
+    color: rgb(243, 237, 237);
+}
+.btnn:hover{
+    background-color: #9C0000;
+    color: white;
+}
