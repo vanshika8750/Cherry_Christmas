@@ -9,45 +9,36 @@ import candl from './pics/Candle2.webp'
 export class Special_Offer extends Component {
   render() {
     return (
-      <div>
-        <div className="title">
-        Here is a special offer for you !!!!!!!!!!
-        </div>
-        {/* <div className="gift">
-            pic of gift 
-            when gets open , 
-            displays a discount offer code 
-            to the customer
-        </div> */}
-
-
-
+      <div className='Spec_offer'>
         {/* cards */}
+        <div className="tit">
+          Some Featured Products
+        </div>
         <div className="firstRow">
                <div className="card" >
               <img src={candle} className="card-img-top" alt="pic"/>
-              <div className="card-body">
+              <div className="card-body b">
                 <h5 className="card-title">Holiday Candle</h5>
                 <p className="card-text"> Rs. 60</p>
-                <a href="#" className="btn btn-primary">ADD TO CART</a>
+                <a href="#" className="btn  link-danger">ADD TO CART</a>
               </div>
                </div>
 
                <div className="card" >
               <img src={santadoll} className="card-img-top" alt="pic"/>
-              <div className="card-body">
+              <div className="card-body b">
                 <h5 className="card-title">Santa Doll</h5>
                 <p className="card-text"> Rs. 60</p>
-                <a href="#" className="btn btn-primary">ADD TO CART</a>
+                <a href="#" className="btn link-danger">ADD TO CART</a>
               </div>
                </div>
 
                <div className="card" >
               <img src={xmasTree} className="card-img-top" alt="pic"/>
-              <div className="card-body">
+              <div className="card-body b">
                 <h5 className="card-title">Christmas Tree</h5>
                 <p className="card-text"> Rs. 60</p>
-                <a href="#" className="btn btn-primary">ADD TO CART</a>
+                <a href="#" className="btn link-danger">ADD TO CART</a>
               </div>
                </div>
         </div>
@@ -55,50 +46,31 @@ export class Special_Offer extends Component {
         <div className="SecondRow">
         <div className="card" >
               <img src={cap} className="card-img-top" alt="pic"/>
-              <div className="card-body">
+              <div className="card-body b">
                 <h5 className="card-title">Holiday Cap</h5>
                 <p className="card-text"> Rs. 60</p>
-                <a href="#" className="btn btn-primary">ADD TO CART</a>
+                <a href="#" className="btn link-danger">ADD TO CART</a>
               </div>
                </div>
 
                <div className="card" >
               <img src={doll} className="card-img-top" alt="pic"/>
-              <div className="card-body">
+              <div className="card-body b">
                 <h5 className="card-title">Holiday Doll</h5>
                 <p className="card-text"> Rs. 60</p>
-                <a href="#" className="btn btn-primary">ADD TO CART</a>
+                <a href="#" className="btn link-danger">ADD TO CART</a>
               </div>
                </div>
 
                <div className="card" >
               <img src={candl} className="card-img-top" alt="pic"/>
-              <div className="card-body">
+              <div className="card-body b">
                 <h5 className="card-title">Holiday Candle</h5>
                 <p className="card-text"> Rs. 60</p>
-                <a href="#" className="btn btn-primary">ADD TO CART</a>
+                <a href="#" className="btn  link-danger">ADD TO CART</a>
               </div>
                </div>
         </div>
-
-        <nav aria-label="Page navigation example">
-  
-  <ul className="pagination justify-content-center">
-    <li className="page-item">
-      <a className="page-link" href="#" aria-label="Previous">
-        <span aria-hidden="true">&laquo;</span>
-      </a>
-    </li>
-    <li className="page-item"><a className="page-link" href="#">1</a></li>
-    <li className="page-item"><a className="page-link" href="#">2</a></li>
-    <li className="page-item"><a className="page-link" href="#">3</a></li>
-    <li className="page-item">
-      <a className="page-link" href="#" aria-label="Next">
-        <span aria-hidden="true">&raquo;</span>
-      </a>
-    </li>
-  </ul>
-</nav>
       </div>
     )
   }

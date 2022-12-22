@@ -1,6 +1,6 @@
 
 .ContactUs{
-    background-image: url("./pics/christmas_background.jpg");
+    background-image: url("./pics/santa_tech.webp");
     background-size: cover;
     height: 80vh;
 }
@@ -13,14 +13,14 @@
     font-size: 40px;
     font-weight: bold;
     text-align: center;
-    color: white;
+    color: #9C0000;
     ;
 }
 .boxx{
     margin: 12px 6px;
     padding: 12px 6px;
     border-radius: 20px;
-    background-color: rgba(117, 114, 114, 0.367);
+    background-color: rgba(0, 0, 0, 0.863);
     color: rgb(243, 237, 237);
 }
 .btnn:hover{

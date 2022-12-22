@@ -1,0 +1,66 @@
+.final_head{
+    margin: 40px auto ;
+    display: flex;
+    background-color: #9C0000;
+    height: 200px;
+    width: 700px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50px;
+}
+.title{
+    text-align: center;
+    font-size: 40px;
+    color:white;
+    font-weight: 500;
+    font-family:cursive ;
+    height: 200px;
+    margin-top: 70px;
+}
+.sizee{
+    width: 700px;
+    margin: 30px auto;
+}
+.fontt{
+    font-size: large;
+    background-color: #c806065b;
+    color: #9C0000;
+    border: 2px solid #9C0000;
+    border-radius: 130px;
+}
+.elts{
+    display:flex;
+    margin-left: 80px;
+}
+.rock_image,.paper_image,.scissor_image,.Result_image{
+    width: 120px;
+    border-radius: 80px;
+}
+#Rock,#Paper,#Scissor,#Result{
+    margin: 10px 80px;
+    border-radius: 100px;
+    border: 5px solid #9C0000;
+}
+.first_line , .second_line{
+height: 5px;
+border-radius: 30px;
+width: 130px;
+background-color: black;
+margin-top: 150px;
+}
+.second_line{
+    margin-top: 30px;
+}
+.result_display{
+    height: 50px;
+    margin: 20px 200px;
+}
+.result_display{
+    width: fit-content;
+    margin: auto;
+    text-align: center;
+    margin-bottom: 20px;
+    height: fit-content;
+    padding: 30px;
+    border-radius: 30px;
+}

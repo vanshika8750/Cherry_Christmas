@@ -1,20 +1,54 @@
 /* *{
     height: 210px;
 } */
-.title{
-    text-align: center;
-    font-size: 40px;
-    color:#9C0000;
-    font-weight: 500;
-    font-family:cursive ;
+.Spec_offer{
+    background-color: lightgreen;
+    /* background-color: darkgreen; */
+    padding: 1px 0px;
 }
 .card{
     width: 20%;
-    margin: 50px 100px;
+    margin: 40px 100px;
+    border-radius: 60px;
+}
+.card-img-top{
+    width: 120px;
 }
 .firstRow{
     display: flex;
 }
 .SecondRow{
     display: flex;
+}
+.alignn{
+    display: flex;
+}
+.carousel-item{
+    background-color: black;
+}
+#carouselExampleControls{
+    width: 60%vh;
+}
+.b{
+    text-align: center;
+}
+.btn:hover{
+    background-color: #9c00004f;
+}
+.tit{
+    margin: 10px auto ;
+    display: flex;
+    background-color: #9C0000;
+    height: 100px;
+    width: 500px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50px;
+    text-align: center;
+    font-size: 40px;
+    color:white;
+    font-weight: 500;
+    font-family:cursive ;
+    height: 100px;
+    margin-top: 70px;
 }

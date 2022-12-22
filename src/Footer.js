@@ -17,6 +17,9 @@ export class Footer extends Component {
             <div className='comp'>Terms</div>
             <div className='comp'>FAQ</div>
         </div>
+        <div className="third">
+          Made with love by <h2>--Vanshika Jain--</h2>
+        </div>
       </div>
     )
   }

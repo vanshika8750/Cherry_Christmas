@@ -44,10 +44,10 @@ export class Front extends Component {
           <a className="nav-link " aria-current="page" href="#">Special Offer</a>
         </li>
         <li className="nav-item">
-          <a className="nav-link" aria-current="page" href="#">Contact</a>
+          <a className="nav-link" aria-current="page" href="#">F.A.Q.</a>
         </li>
         <li className="nav-item">
-          <a className="nav-link " aria-current="page" href="#">F.A.Q.</a>
+          <a className="nav-link " aria-current="page" href="#">Contact</a>
         </li>
       </ul>
     </div>
