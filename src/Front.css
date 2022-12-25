@@ -113,3 +113,21 @@ html, body {
 		vertical-align: middle;
 		text-align: center;
 	}
+	.sound_btn{
+		background-color: rgba(128, 128, 128, 0);
+		margin-left: 20px;
+		border: 0px solid ;
+
+	}
+	.note{
+		color: white;
+	}
+	.sound_button{
+		width: fit-content;
+		background-color: #9C0000;
+		height: fit-content;
+		padding: 10px;
+		padding-right: 25px;
+		border-top-right-radius: 50px;
+		border-bottom-right-radius: 50px;
+	}

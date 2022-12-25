@@ -8,6 +8,7 @@ import doll from './pics/Holidaydoll.webp'
 import candl from './pics/Candle2.webp'
 export class Special_Offer extends Component {
   render() {
+    
     return (
       <div className='Spec_offer'>
         {/* cards */}
@@ -44,7 +45,7 @@ export class Special_Offer extends Component {
         </div>
 
         <div className="SecondRow">
-        <div className="card" >
+        <div className="card">
               <img src={cap} className="card-img-top" alt="pic"/>
               <div className="card-body b">
                 <h5 className="card-title">Holiday Cap</h5>

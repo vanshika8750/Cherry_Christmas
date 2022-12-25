@@ -13,6 +13,7 @@
 }
 .card-img-top{
     width: 120px;
+    border-top-left-radius: 60px;
 }
 .firstRow{
     display: flex;

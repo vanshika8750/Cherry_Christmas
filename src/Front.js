@@ -2,17 +2,36 @@
 
 import React, { Component } from 'react'
 import './Front.css';
+import voice from './audio.mp3'
+import sound_img from './pics/audio_image.png'
 import Snowfall from "react-snowfall";
 import cherry_logo from './pics/cherry_image.png'
 import snowLogo from './pics/snow.png'
+import{Howl,Howler} from "howler";
 const snowFlake=document.createElement('img')
 snowFlake.src=snowLogo
 const images=[snowFlake]
-
+const audioclips=[{sound:voice,label:'Christmas'}]
 export class Front extends Component {
+  SoundPlay=(src)=>{
+    const sound=new Howl({src})
+    sound.play();
+  }
+  RenderButtonAndSound=()=>{
+    return audioclips.map((soundObj,index)=>{
+      return(
+        <button className='sound_btn' key={index} onClick={()=>this.SoundPlay(soundObj.sound)}>
+          <img src={sound_img} alt="audio" style={{width:'50px'}} />
+        </button>
+
+      )
+    })
+  }
   render() {
+    Howler.volume(1.0)
     return (
       <div className='front_page'>
+
         {/* navbar */}
         <Snowfall
       style={{
@@ -31,7 +50,7 @@ export class Front extends Component {
   <div className="container-fluid">
     <a className="navbar-brand" href="#">Cherry
     <img src={cherry_logo} alt="logo" className='cherry_logo'/>
-    </a>
+    </a> 
     <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span className="navbar-toggler-icon"></span>
     </button>
@@ -53,13 +72,20 @@ export class Front extends Component {
     </div>
   </div>
 </nav>
-
+<div className="sound_button">
+    {/* insert sound */}
+  
+  {this.RenderButtonAndSound()}
+  <div className='note'>Click above for magical sound</div>
+  </div>
 {/* front page */}
 <div class="bg">
 		<div class="centerer">
 			<a href="#" class="button"> Merry   Christmas</a>
 		</div>
+    
 	</div>
+ 
       </div>
     )
   }
